@@ -55,6 +55,8 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: "Droid Serif", Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;s
     color: #5C6366;
     padding: 48px 24px 24px;
 }
@@ -118,6 +120,11 @@ h2 {
     line-height: 32px;
     margin: 0 0 24px;
 }
+
+* + h2 {
+    margin-top: 48px;
+}
+
 
 h3 {
     font-size: 18px;
